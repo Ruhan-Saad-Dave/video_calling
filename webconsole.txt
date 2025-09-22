@@ -1,3 +1,6 @@
-Failed to load resource: the server responded with a status of 404 (Not Found)Understand this error
-:8000/login:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Understand this error
-:8000/favicon.ico:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 ()Understand this error
+webrtc.js:14 Mixed Content: The page at 'https://video-calling-eo04.onrender.com/' was loaded over HTTPS, but attempted to connect to the insecure WebSocket endpoint 'ws://video-calling-eo04.onrender.com/ws/user1'. This request has been blocked; this endpoint must be available over WSS.
+startWebsocket @ webrtc.js:14Understand this error
+webrtc.js:14 Uncaught (in promise) SecurityError: Failed to construct 'WebSocket': An insecure WebSocket connection may not be initiated from a page loaded over HTTPS.
+    at startWebsocket (webrtc.js:14:17)
+    at auth.js:41:17

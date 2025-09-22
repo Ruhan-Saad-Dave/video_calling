@@ -1,0 +1,8 @@
+Future Features for the Python Video Calling System:
+
+1.  **Call Notifications:** Implement a system to notify users of incoming calls (e.g., a pop-up or sound).
+2.  **Call State Management:** Add more robust handling for call states (ringing, accepted, rejected, ended).
+3.  **UI/UX Enhancements:** Improve the visual design and user experience, perhaps with Material Design or another UI library.
+4.  **Error Handling (Frontend):** Display more user-friendly error messages on the frontend for various scenarios.
+5.  **STUN/TURN Servers:** For calls between users on different networks (especially behind NATs or firewalls), configure STUN and TURN servers. These are often essential for reliable connections.
+6.  **Scalability:** For a production system, consider how to scale the signaling server and potentially integrate with cloud-based WebRTC services.

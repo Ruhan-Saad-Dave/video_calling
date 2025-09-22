@@ -11,7 +11,8 @@ let websocket;
 let iceCandidatesQueue = [];
 
 export function startWebsocket(username) {
-    websocket = new WebSocket(`ws://${window.location.host}/ws/${username}`);
+    const wsProtocol = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
+    websocket = new WebSocket(`${wsProtocol}${window.location.host}/ws/${username}`);
     websocket.onmessage = (event) => {
         const message = JSON.parse(event.data);
         switch (message.type) {
