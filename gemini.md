@@ -1,0 +1,1 @@
+Your job is to create a video calling system using only python. Note that this system will be hosted. The user should be able to login, and make video call to other user they select. make sure that the video will work in low latency. If you need any thing like api keys do tell.

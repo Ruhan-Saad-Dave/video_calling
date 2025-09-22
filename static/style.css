@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#login-container, #call-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#videos {
+    display: flex;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #333;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+#user-list-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#user-list {
+    list-style: none;
+    padding: 0;
+}
+
+#user-list li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#user-list li:hover {
+    background-color: #eee;
+}
